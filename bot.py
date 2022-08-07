@@ -1,13 +1,12 @@
 import logging
 from telegram.ext.filters import Filters
-from numpy import number
 from telegram.ext.updater import Updater
 from telegram.update import Update
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import CallbackQueryHandler, ContextTypes
 from telegram.ext.callbackcontext import CallbackContext
 from telegram import (ChatAction)
-from telegram import ReplyKeyboardMarkup, ReplyKeyboardRemove, Update, KeyboardButton
+from telegram import ReplyKeyboardMarkup, Update
 from telegram.ext import (
     CommandHandler,
     ContextTypes,
